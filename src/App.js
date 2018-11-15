@@ -73,7 +73,7 @@ class App extends Component {
       <React.Fragment>
         <Header watchlist={watchlist} favourites={favourites}></Header>
         <Slider></Slider>
-        <div className="album py-5 bg-light">
+        <div className="album py-5 bg-light home-bg">
         <main className="container">
           <Movies onAddToWatchlist={this.addToWatchList} onAddToFavourites={this.addToFavourites} movies={movies}></Movies>
         </main>

@@ -2,13 +2,15 @@ body{
   padding-top: 56px;
 }
 
-.movie-name{
-  margin-top: 10px;
-}
-
 .movie-card .card-img-top{
   width: 125px;
   margin-top: -40px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+
+.card.movie-card{
+  border: none;
+  box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
 }
 
 .movie-content{
@@ -25,6 +27,16 @@ body{
 
 .plot{
   margin-bottom: 10px;
+}
+
+.actions{
+  border-top: 1px solid #eeeeee;
+  padding-top: 15px;
+  margin-top: auto;
+}
+
+.bg-light.home-bg{
+  background: #f2f5f7 !important;
 }
 
 @media (min-width: 1200px){
