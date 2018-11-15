@@ -45,3 +45,9 @@ body{
     max-width: 1400px;    
   }
 }
+
+@media (max-width: 767px){
+  .navbar-nav{
+    flex-direction: row;
+  }
+}
