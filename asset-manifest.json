@@ -1,16 +1,16 @@
 {
-  "main.css": "/ramroseat/static/css/main.d798bfe9.chunk.css",
-  "main.js": "/ramroseat/static/js/main.0b63a4cc.chunk.js",
-  "main.js.map": "/ramroseat/static/js/main.0b63a4cc.chunk.js.map",
+  "main.css": "/ramroseat/static/css/main.d0fa7fef.chunk.css",
+  "main.js": "/ramroseat/static/js/main.604334df.chunk.js",
+  "main.js.map": "/ramroseat/static/js/main.604334df.chunk.js.map",
   "static/css/1.d04ec7c0.chunk.css": "/ramroseat/static/css/1.d04ec7c0.chunk.css",
   "static/js/1.ee7ff3a5.chunk.js": "/ramroseat/static/js/1.ee7ff3a5.chunk.js",
   "static/js/1.ee7ff3a5.chunk.js.map": "/ramroseat/static/js/1.ee7ff3a5.chunk.js.map",
   "runtime~main.js": "/ramroseat/static/js/runtime~main.56d9984a.js",
   "runtime~main.js.map": "/ramroseat/static/js/runtime~main.56d9984a.js.map",
-  "static/media/font-awesome.min.css": "/ramroseat/static/media/fontawesome-webfont.fee66e71.woff",
-  "static/css/main.d798bfe9.chunk.css.map": "/ramroseat/static/css/main.d798bfe9.chunk.css.map",
+  "static/media/font-awesome.min.css": "/ramroseat/static/media/fontawesome-webfont.af7ae505.woff2",
+  "static/css/main.d0fa7fef.chunk.css.map": "/ramroseat/static/css/main.d0fa7fef.chunk.css.map",
   "static/css/1.d04ec7c0.chunk.css.map": "/ramroseat/static/css/1.d04ec7c0.chunk.css.map",
   "index.html": "/ramroseat/index.html",
-  "precache-manifest.743967c73ced879ed70df5a986dd79c9.js": "/ramroseat/precache-manifest.743967c73ced879ed70df5a986dd79c9.js",
+  "precache-manifest.1ab669c08788d7a5f5008835afdc0f12.js": "/ramroseat/precache-manifest.1ab669c08788d7a5f5008835afdc0f12.js",
   "service-worker.js": "/ramroseat/service-worker.js"
 }
