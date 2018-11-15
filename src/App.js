@@ -45,7 +45,7 @@ class App extends Component {
   // }
   
   addToWatchList = imdbID =>{
-      console.log('add ' + imdbID + ' to watchlist');
+      console.log('add  ' + imdbID + ' to watchlist');
   }
 
   render() {
