@@ -8,7 +8,7 @@ const API = 'https://www.omdbapi.com/?i=tt3896198&apikey=fcdfe84d';
 
 let DEFAULT_QUERY = '&s=the+rock&type=movie';
 
-class App extends Component {
+class App extends Component {  
 
   constructor(props) {
     super(props);
@@ -43,22 +43,39 @@ class App extends Component {
   //     },      
   //   ]    
   // }
+
+  
   
   addToWatchList = imdbID =>{
-      console.log('add  ' + imdbID + ' to watchlist');
+      // console.log('add  ' + imdbID + ' to watchlist');          
+      const watchlist = this.state.watchlist;
+      if (!watchlist.includes(imdbID)){
+          watchlist.push(imdbID);            
+      }      
+      
+      this.setState({ watchlist });      
+  }
+
+  addToFavourites = imdbID => {
+    const favourites = this.state.favourites;
+    if (!favourites.includes(imdbID)){
+        favourites.push(imdbID);
+    }
+
+    this.setState({favourites});
   }
 
   render() {
 
-    const { movies} = this.state;    
+    const { movies, watchlist, favourites} = this.state;    
     
     return (
       <React.Fragment>
-        <Header></Header>
+        <Header watchlist={watchlist} favourites={favourites}></Header>
         <Slider></Slider>
         <div className="album py-5 bg-light">
         <main className="container">
-          <Movies onAddToWatchlist={this.addToWatchList}movies={movies}></Movies>
+          <Movies onAddToWatchlist={this.addToWatchList} onAddToFavourites={this.addToFavourites} movies={movies}></Movies>
         </main>
         </div>
       </React.Fragment>

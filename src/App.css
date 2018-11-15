@@ -1,3 +1,35 @@
+body{
+  padding-top: 56px;
+}
+
 .movie-name{
   margin-top: 10px;
+}
+
+.movie-card .card-img-top{
+  width: 125px;
+  margin-top: -40px;
+}
+
+.movie-content{
+  padding-left: 15px;
+}
+
+.movie-content .btn{
+  transition: none;
+}
+
+.movie-content .btn:focus{
+  box-shadow: none;
+}
+
+.plot{
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1200px){
+  .container{
+    width: 100%;
+    max-width: 1400px;    
+  }
 }

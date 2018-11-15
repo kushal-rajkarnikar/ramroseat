@@ -3,6 +3,9 @@ import { Nav, Navbar, Container, NavbarBrand, NavItem, NavLink} from 'reactstrap
 
 class Header extends Component{
     render(){
+
+        const { watchlist, favourites } = this.props;        
+
         return(
             // <div className="navbar navbar-dark bg-dark shadow-sm">
             //     <div className="container d-flex justify-content-between">
@@ -16,7 +19,7 @@ class Header extends Component{
             //     </div>
             // </div>
 
-            <Navbar color="dark" dark expand="md">
+            <Navbar className="fixed-top" color="dark" dark expand="md">
                 <Container>
                     <Nav navbar style={{width: "100%"}}>
                     <NavbarBrand href="/">ramroseat</NavbarBrand>     
@@ -24,10 +27,10 @@ class Header extends Component{
                         <NavLink href="#" style={{color: "white"}}>Now Showing</NavLink>
                     </NavItem>
                         <NavItem style={{ marginRight: "15px"}}>
-                            <NavLink href="#" style={{ color: "white" }}>Watchlist<span style={{ marginLeft: "5px"}} class="badge badge-primary">0</span></NavLink>
+                            <NavLink href="#" style={{ color: "white" }}>Watchlist<span style={{ marginLeft: "5px"}} className="badge badge-primary">{watchlist.length}</span></NavLink>
                     </NavItem>
                     <NavItem>
-                            <NavLink href="#" style={{ color: "white" }}>Favourites<span style={{ marginLeft: "5px" }} class="badge badge-primary">0</span></NavLink>
+                            <NavLink href="#" style={{ color: "white" }}>Favourites<span style={{ marginLeft: "5px" }} className="badge badge-primary">{favourites.length}</span></NavLink>
                     </NavItem>
                     </Nav>
                 </Container>
