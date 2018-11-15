@@ -4,7 +4,7 @@ import Header from './components/header';
 import Slider from './components/slider';
 import Movies from './components/movies';
 
-const API = 'http://www.omdbapi.com/?i=tt3896198&apikey=fcdfe84d';
+const API = 'https://www.omdbapi.com/?i=tt3896198&apikey=fcdfe84d';
 
 let DEFAULT_QUERY = '&s=the+rock&type=movie';
 

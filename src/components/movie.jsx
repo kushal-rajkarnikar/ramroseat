@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Col } from 'reactstrap';
 
-const API = 'http://www.omdbapi.com/?apikey=fcdfe84d&i=';
+const API = 'https://www.omdbapi.com/?apikey=fcdfe84d&i=';
 
 export default class Movie extends Component {
 
